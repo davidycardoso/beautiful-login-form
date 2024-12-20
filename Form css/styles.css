@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Montserrat";
+    color: #404040;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f7fa;
+    background-image: url(wave.svg);
+    background-size: cover;
+    background-position: 50%;
+  }
+
+h1{
+    font-size: 24px;
+}
+
+form{
+    padding: 50px;
+    border-radius: 50px;
+    background-color: #fff1c5;
+    box-shadow:  -25px -25px 50px #d6caa5,
+    25px 25px 50px #ffffe5;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.barra-horizontal {
+    background-color: #d16500;
+    height: 5px;
+    width: 200px;
+
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.lembrar {
+    display: flex;
+    gap: 5px;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.button {
+    border-radius: 100rem;
+    color: #471501;
+    padding: 1em;
+    font-size: 1.2em;
+    padding: .5rem 3rem;
+    text-decoration: none;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 3px transparent;
+    background-color: #99570f; /* Cor 700 (tom de dourado mais forte) para o fundo */
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #f3cf51, #99570f); /* Gradiente com bom contraste */
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    transition: background-color 0.3s, transform 0.2s ease-in-out; /* Animação suave */
+}
+
+.button:hover {
+    box-shadow: none;
+    color: white;
+    background-color: #7e4615; /* Cor 800 (tom mais escuro) no hover para maior contraste */
+    transform: scale(1.05); /* Efeito de ampliação suave */
+}
+
+.button:active {
+    transform: scale(0.95); /* Efeito de compressão ao clicar */
+}
+
+input{
+    padding: 10px 20px;
+   border-radius: 10px;
+   border: none;
+   background-color: #fdfae9;
+}
+
+/* Estilização do link (tag a) */
+a {
+    color: rgb(0, 174, 255); /* Cor azul */
+    font-weight: 500; /* Peso da fonte */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: color 0.3s ease; /* Animação suave para a cor */
+  }
+  
+  /* Efeito de hover no link */
+  a:hover {
+    color: #fff; /* Muda a cor para branco quando o mouse passa por cima */
+  }
+  
